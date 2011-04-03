@@ -1,0 +1,13 @@
+package bavaria.hightech.testit;
+
+public class MoneyText {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

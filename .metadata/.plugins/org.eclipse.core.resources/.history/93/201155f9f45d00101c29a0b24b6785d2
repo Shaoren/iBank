@@ -1,0 +1,15 @@
+package bavaria.hightech.banking;
+
+public interface BankKundenSicht {
+	public Konto newKonto(String kontoinhaber, KontoTyp typ);
+
+	public float getKontostand(int kontonummer);
+
+	public void deposit(int kontonummer, float deposit, String grund);
+
+	public void drawout(int kontonummer, float drawout, String grund)
+			throws Exception;
+
+	public void transfer(int kontonummer, float transfer, String grund,
+			int transferKonto) throws Exception;
+}

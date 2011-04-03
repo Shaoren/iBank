@@ -1,0 +1,7 @@
+package bavaria.hightech.banking;
+
+public class Money {
+public void add() {
+	
+}
+}

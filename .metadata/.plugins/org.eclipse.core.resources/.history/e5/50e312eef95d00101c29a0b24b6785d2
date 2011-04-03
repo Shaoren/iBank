@@ -1,0 +1,17 @@
+package bavaria.hightech.banking;
+
+public class Money {
+	public long money;
+public void add(long betrag) {
+	this.money += betrag;
+}
+public void abziehen(long betrag) {
+	this.money -= betrag;
+}
+pubilc void samewhatever() {
+	
+}
+pubilc void biggerwhatever() {
+	
+}
+}

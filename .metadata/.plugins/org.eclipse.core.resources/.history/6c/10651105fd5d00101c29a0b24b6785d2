@@ -1,0 +1,34 @@
+package bavaria.hightech.banking;
+
+public class Money {
+	private long money;
+	private Währungstypen währungstyp;
+
+	public void add(Money betrag) {
+		this.money += betrag.money;
+	}
+
+	public void subtract(Money betrag) {
+		this.money -= betrag.money;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Money other = (Money) obj;
+		if (money != other.money)
+			return false;
+		if (währungstyp != other.währungstyp)
+			return false;
+		return true;
+	}
+
+	public void biggerwhatever() {
+
+	}
+}

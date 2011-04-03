@@ -1,0 +1,5 @@
+package bavaria.hightech.banking;
+
+public class Money {
+
+}

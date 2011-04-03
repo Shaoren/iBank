@@ -1,0 +1,8 @@
+package bavaria.hightech.banking;
+
+public class Money {
+	public int betrag;
+public int add(int betrag) {
+	return +betrag;
+}
+}
